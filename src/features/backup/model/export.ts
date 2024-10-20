@@ -53,7 +53,7 @@ export const exportBackup = async () => {
   const backup = await createBackup();
 
   const timestamp = DateTime.now().toMillis();
-  const filename = `moneyflow-backup-v${backup.version}-${timestamp}.json`;
+  const filename = `walletwatch-backup-v${backup.version}-${timestamp}.json`;
   const data = JSON.stringify(backup);
   const writeResult = await Filesystem.writeFile({
     path: filename,

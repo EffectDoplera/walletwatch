@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "cash.moneyflow.moneyflow"
+    namespace "cash.wallet.watch"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "cash.moneyflow.moneyflow"
+        applicationId "cash.wallet.watch"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 5
-        versionName "1.5.0"
+        versionCode 1
+        versionName "1.0.0-beta"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

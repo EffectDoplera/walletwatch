@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Money Flow</string>
-    <string name="title_activity_main">Money Flow</string>
-    <string name="package_name">cash.moneyflow.moneyflow</string>
-    <string name="custom_url_scheme">cash.moneyflow.moneyflow</string>
+    <string name="app_name">Wallet Watch</string>
+    <string name="title_activity_main">Wallet Watch</string>
+    <string name="package_name">cash.wallet.watch</string>
+    <string name="custom_url_scheme">cash.wallet.watch</string>
 </resources>

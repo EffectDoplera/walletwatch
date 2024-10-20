@@ -1,8 +1,8 @@
 import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "cash.moneyflow.moneyflow",
-  appName: "Money Flow",
+  appId: "cash.wallet.watch",
+  appName: "Wallet Watch",
   webDir: "dist",
   server: {
     androidScheme: "https",

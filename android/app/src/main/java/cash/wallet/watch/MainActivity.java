@@ -1,4 +1,4 @@
-package cash.moneyflow.moneyflow;
+package cash.wallet.watch;
 
 import android.os.Bundle;
 
